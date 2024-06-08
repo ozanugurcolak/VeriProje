@@ -1,0 +1,65 @@
+**Başlık:** Meme kanseri verileri (Michalski tarafından kullanılmıştır)
+
+**Kaynaklar:**
+   -- Matjaz Zwitter & Milan Soklic (doktorlar)
+      Onkoloji Enstitüsü 
+      Üniversite Tıp Merkezi
+      Ljubljana, Yugoslavya
+   -- Bağışçılar: Ming Tan ve Jeff Schlimmer (Jeffrey.Schlimmer@a.gp.cs.cmu.edu)
+   -- Tarih: 11 Temmuz 1988
+
+**Geçmiş Kullanım:**
+   (Birkaç örnek: işte bazıları)
+     -- Michalski, R.S., Mozetic, I., Hong, J., & Lavrac, N. (1986). 
+        Çok Amaçlı Artımsal Öğrenme Sistemi AQ15 ve Üç Tıbbi Alana Uygulaması.
+        Beşinci Ulusal Yapay Zeka Konferansı Bildirilerinde, 1041-1045,
+        Philadelphia, PA: Morgan Kaufmann.
+        -- doğruluk aralığı: %66-%72
+     -- Clark, P. & Niblett, T. (1987). Gürültülü Alanlarda Tümevarım.
+        Makine Öğreniminde İlerlemeler (2. Avrupa Öğrenme Çalıştayı Bildirilerinden),
+        11-30, Bled, Yugoslavya: Sigma Press.
+        -- 8 test sonucu: %65-%72 doğruluk aralığı
+     -- Tan, M., & Eshelman, L. (1988). Gürültülü alanlarda sınıflandırma bilgisini
+        temsil etmek için ağırlıklı ağları kullanma. Beşinci Uluslararası
+        Makine Öğrenme Konferansı Bildirilerinde, 121-134, Ann Arbor, MI.
+        -- 4 sistem test edildi: doğruluk aralığı %68-%73.5
+    -- Cestnik, G., Konenenko, I, & Bratko, I. (1987). Assistant-86:
+       İleri Düzey Kullanıcılar İçin Bilgi Toplama Aracı. I.Bratko
+       & N.Lavrac (Ed.) Makine Öğreniminde İlerlemeler, 31-45, Sigma Press.
+       -- Assistant-86: %78 doğruluk
+
+**İlgili Bilgi:**
+   Bu, Onkoloji Enstitüsü tarafından sağlanan ve makine öğrenimi literatüründe
+   tekrar tekrar yer alan üç alandan biridir. (Ayrıca lenfografi ve birincil tümöre
+   bakın.)
+
+   Bu veri seti, bir sınıfa ait 201 ve başka bir sınıfa ait 85 örneği içerir.
+   Örnekler, bazıları doğrusal ve bazıları nominal olan 9 öznitelik tarafından
+   tanımlanır.
+
+**Örnek Sayısı:** 286
+
+**Öznitelik Sayısı:** 9 + sınıf özniteliği
+
+**Öznitelik Bilgisi:**
+   1. Sınıf: tekrarlamayan olaylar, tekrarlayan olaylar
+   2. yaş: 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99.
+   3. menopoz: lt40, ge40, premeno.
+   4. tümör boyutu: 0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44,
+                  45-49, 50-54, 55-59.
+   5. invaziv düğümler: 0-2, 3-5, 6-8, 9-11, 12-14, 15-17, 18-20, 21-23, 24-26,
+                 27-29, 30-32, 33-35, 36-39.
+   6. düğüm kapsülü: evet, hayır.
+   7. dereceli malignite: 1, 2, 3.
+   8. meme: sol, sağ.
+   9. meme kadranı: sol üst, sol alt, sağ üst, sağ alt, merkezi.
+  10. radyasyon: evet, hayır.
+
+**Eksik Öznitelik Değerleri:** ( "?" ile belirtilmiş)
+   Öznitelik #:  Eksik değere sahip örnek sayısı:
+   6.             8
+   9.             1.
+
+**Sınıf Dağılımı:**
+    1. tekrarlamayan olaylar: 201 örnek
+    2. tekrarlayan olaylar: 85 örnek
